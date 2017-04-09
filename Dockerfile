@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		wget \
 	&& rm -rf /var/lib/apt/lists/*
 
-ENV GOLANG_VERSION 1.8
+ENV GOLANG_VERSION 1.8.1
 
 # https://github.com/hypriot/golang-armbuilds
 # we need this env var for the Go bootstrap build process
